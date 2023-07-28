@@ -121,3 +121,27 @@ header{
     font-weight: 400;
     padding: 10px;
 }
+
+.quote-section{
+    background-color: #e5e7eb;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.quote-section .quote{
+    position: relative;
+    width: 60%;
+    margin: auto;
+}
+
+.quote-section .quote p{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;;
+}
+
+.quote-section .quote h4{
+    position: absolute;
+    right: 50px;
+}
