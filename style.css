@@ -1,8 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,600;0,800;1,400&family=Roboto:wght@300;500;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: Roboto; */
+    font-family: Roboto;
 }
 
 .main-container{
@@ -81,4 +84,40 @@ header{
 .section-container .main-image img{
     width: 350px;
     border-radius: 5px;
+}
+
+.second-section-title {
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.card-img{
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img img{
+    width: 150px;
+}
+
+.card-info{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
 }
