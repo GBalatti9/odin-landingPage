@@ -21,7 +21,7 @@ header{
 }
 
 .logo{
-    flex: 1;
+    flex: 1.5;
     text-align: center;
     font-size: 24px;
     color: #f9f4f8;
@@ -46,6 +46,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 350px;
 }
 
 .section-container .information{
@@ -144,4 +145,35 @@ header{
 .quote-section .quote h4{
     position: absolute;
     right: 50px;
+}
+
+.cta-section{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-section .cta-container{
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 0.7;
+    padding: 40px
+}
+
+.cta-container-info{
+    border: 1px solid red;
+}
+
+.cta-button{
+    border: 1px solid red;
+}
+
+.cta-container-info h3, .cta-container-info p {
+    color: white;
+}
+
+.cta-container-info p {
+    font-weight: lighter;
 }
