@@ -76,6 +76,7 @@ header{
     padding: 1%;
     border-radius: 5px;
     width: 20%;
+    cursor: pointer;
 }
 
 .section-container .main-image {
@@ -148,9 +149,9 @@ header{
 }
 
 .cta-section{
-    border: 1px solid red;
     display: flex;
     justify-content: center;
+    padding: 50px;
 }
 
 .cta-section .cta-container{
@@ -159,15 +160,20 @@ header{
     align-items: center;
     justify-content: space-around;
     flex: 0.7;
-    padding: 40px
+    padding: 40px;
+    border-radius: 5px;
 }
 
-.cta-container-info{
-    border: 1px solid red;
-}
 
-.cta-button{
-    border: 1px solid red;
+.cta-button button {
+    border: none;
+    background-color: #3882f6;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    padding: 5%;
+    color: white;
+    cursor: pointer;
 }
 
 .cta-container-info h3, .cta-container-info p {
