@@ -183,3 +183,12 @@ header{
 .cta-container-info p {
     font-weight: lighter;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 100px;
+    color: white;
+}
