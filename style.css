@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font-family: Roboto; */
+}
+
+.main-container{
+    background-color: #1f2937;
 }
 
 header{
@@ -34,6 +39,24 @@ header{
     color: #e5e7eb;
 }
 
-.main-container{
-    background-color: #1f2937;
+.section-container {
+    display: flex;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-container .information{
+    border: 1px solid white;
+    width: 50%;
+}
+
+.section-container .information h2{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9f4f8;
+}
+
+.section-container .main-image{
+    border: 1px solid white;
 }
